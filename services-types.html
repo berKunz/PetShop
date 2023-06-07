@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="services-types.css">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <h1>Cadastro de Serviço</h1>
+    <form id="create-service-form">
+        <input class="create-service-input" type="text" name="name" placeholder="Nome do serviço" />
+        <input class="create-service-input" type="float" name="price" placeholder="Preço" />
+        <input class="create-service-input" type="time" name="duration" placeholder="Duração" />
+        <button id="create-service-button" type="submit">Criar Serviço</button>
+    </form>
+    <table id="service-list-container">
+        <tr>
+            <th>Nome do Serviço</th>
+            <th>Preço</th>
+            <th>Duração</th>
+        </tr>
+    </table>
+    <script src="services-types.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="animals.css">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <h1>Cadastro de Animais</h1>
+    <form id="create-animal-form">
+        <input class="create-animal-input" type="text" name="name_animal" placeholder="Nome do animal" />
+        <input class="create-animal-input" type="text" name="breed" placeholder="Raça" />
+        <input class="create-animal-input" type="number" name="age" placeholder="Idade" />
+        <input class="create-animal-input" type="float" name="weight" placeholder="Peso" />
+        <input class="create-animal-input" type="text" name="owner_name" placeholder="Nome do dono" />
+        <input class="create-animal-input" type="text" name="is_vacinated" placeholder="É vacinado?" />
+        <button id="create-animal-button" type="submit">Criar Cadastro de Animal</button>
+    </form>
+    <table id="animal-list-container">
+        <tr>
+            <th>Nome do Animal</th>
+            <th>Raça</th>
+            <th>Idade</th>
+            <th>Peso</th>
+            <th>Nome do Dono</th>
+            <th>É vacinado?</th>
+        </tr>
+    </table>
+    <script src="animals.js"></script>
+</body>
+</html>
+
+
+

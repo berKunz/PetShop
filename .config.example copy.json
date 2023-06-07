@@ -1,0 +1,20 @@
+{
+  "security": {
+    "secret": "123456",
+    "tokenExpiration": 18000,
+    "tokenMaxExpiration": 432000
+  },
+  "database": {
+    "dialect": "postgresql",
+    "host": "localhost",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "situacao-aprendizagem",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}

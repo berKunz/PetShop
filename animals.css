@@ -1,0 +1,52 @@
+#create-animal-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.create-animal-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-animal-input:focus {
+    outline: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#create-animal-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#create-animal-button:hover {
+    background-color: #45a049;
+}
+
+#animal-list-container {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#animal-list-container th, 
+#animal-list-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#animal-list-container th {
+    background-color: #f2f2f2;
+}
+
+#animal-list-container tr:hover {
+    background-color: #f5f5f5;
+}
